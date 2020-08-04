@@ -1,5 +1,34 @@
 {
-    "name": "Arduino scheduler",
+    "name": "time-scheduler",
     "version": "0.1.0",
-    "description": "Simple Arduino scheduler based on ezTime library"
+    "description": "Simple Arduino scheduler based on ezTime library",
+    "keywords": "arduino, scheduler, timing",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/Kristty/arduino_scheduler.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Kristina Dmitrieva",
+        "url": "https://github.com/Kristty",
+        "maintainer": true
+      },
+      {
+        "name": "Vitaliy Dmitriev",
+        "url": "https://github.com/vi7",
+        "maintainer": true
+      }
+    ],
+    "dependencies": {
+        "name": "ezTime",
+        "version": "~0.8.0",
+        "authors": 
+        [
+            "Rop Gonggrijp"
+        ]
+    },
+    "frameworks": "arduino",
+    "platforms": "*"
 }
