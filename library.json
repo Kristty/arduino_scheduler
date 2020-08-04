@@ -1,0 +1,5 @@
+{
+    "name": "Arduino scheduler",
+    "version": "0.1.0",
+    "description": "Simple Arduino scheduler based on ezTime library"
+}
